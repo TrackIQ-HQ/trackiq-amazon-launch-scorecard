@@ -1,0 +1,38 @@
+{
+  "name": "trackiq-amazon-launch-scorecard",
+  "title": "TrackIQ: Amazon Launch Scorecard",
+  "category": "operations",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Grades a newly launched Amazon ASIN week by week through its first twelve weeks \u2014 units and revenue against a target curve, session growth, conversion rate, review accumulation, organic rank on its target keywords, and TACoS against a declining break-even glide path \u2014 ending in a go, hold or fix verdict with one lever. Use when the user asks about a product launch, new ASIN performance, launch tra",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_keyword_rank",
+      "get_product_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": true,
+    "third_party_apis": [
+      "oxylabs"
+    ],
+    "third_party_note": "Requires an Oxylabs scraper connection; the public page is the only source for this data."
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-launch-scorecard",
+  "license": "MIT"
+}

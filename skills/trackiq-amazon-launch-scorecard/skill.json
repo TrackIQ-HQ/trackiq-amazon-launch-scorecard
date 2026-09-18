@@ -4,7 +4,7 @@
   "category": "operations",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Grades a newly launched Amazon ASIN week by week through its first twelve weeks \u2014 units and revenue against a target curve, session growth, conversion rate, review accumulation, organic rank on its target keywords, and TACoS against a declining break-even glide path \u2014 ending in a go, hold or fix verdict with one lever. Use when the user asks about a product launch, new ASIN performance, launch tra",
+  "summary": "Grades a newly launched Amazon ASIN week by week through its first twelve weeks \u2014 units and revenue against a target curve, session growth, conversion rate, review accumulation, organic rank on its target keywords, and TACoS against a declining break-even glide path \u2014 ending in a go, hold or fix verdict with one lever.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [

@@ -2,8 +2,8 @@
   "name": "trackiq-amazon-launch-scorecard",
   "title": "TrackIQ: Amazon Launch Scorecard",
   "category": "operations",
-  "version": "1.0.0",
-  "updated": "2026-09-18",
+  "version": "1.0.1",
+  "updated": "2026-10-06",
   "summary": "Grades a newly launched Amazon ASIN week by week through its first twelve weeks \u2014 units and revenue against a target curve, session growth, conversion rate, review accumulation, organic rank on its target keywords, and TACoS against a declining break-even glide path \u2014 ending in a go, hold or fix verdict with one lever.",
   "changelog": "First public release.",
   "requires": {
